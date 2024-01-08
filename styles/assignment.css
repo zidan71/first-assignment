@@ -179,33 +179,161 @@ nav {
     font-weight: 400;
     line-height: 32px;
     padding-left: 190px;
-    
+
 }
-.full{
-    text-align:justify;
+
+.full {
+    text-align: justify;
     margin-left: 200px;
     justify-content: center;
 }
-.bag{
-padding-left: 180px;
-padding-bottom: 20px;
-/* margin-left: 100px; */
-border-radius: 8px;
+
+.bag {
+    padding-left: 180px;
+    padding-bottom: 20px;
+    /* margin-left: 100px; */
+    border-radius: 8px;
 }
-.bag2{
+
+.bag2 {
     padding-bottom: 20px;
     padding-left: 20px;
 }
-.bag3{
+
+.bag3 {
     padding-bottom: 20px;
     padding-left: 20px;
 }
-.bag1{
+
+.bag1 {
     padding-left: 180px;
 }
-.bag4{
+
+.bag4 {
     padding-left: 20px;
 }
-.bag5{
+
+.bag5 {
     padding-left: 20px;
+}
+
+.subscribe {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    margin-top: 140px;
+    margin-right: 350px;
+    margin-left: 350px;
+}
+
+.news {
+    color: #070211;
+
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.policy {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.each {
+    border-radius: 50px;
+    background: #FFF;
+    width: 450px;
+    height: 50px;
+    padding-right: 10px;
+
+}
+
+.each1 {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-right: 10px;
+    padding-left: 10px;
+
+}
+
+.each,
+.each1 {
+    border-radius: 50px;
+    border: 1px solid grey;
+    outline: none;
+   
+
+}
+
+footer {
+    background: #070211;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.location {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.number {
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    padding-left: 2000px;
+}
+
+.website {
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    padding-left: 2000px;
+}
+
+.copyright {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.unsubscribe {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+
+.face {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 150px;
 }
