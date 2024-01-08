@@ -66,20 +66,21 @@ nav {
     background-image: url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:center ;
+    background-position: center;
     border-radius: 25px;
     /* height: 600px;
     width: 1320px;
     margin-left: 780px; */
     flex-direction: column;
-    margin-right: 500px;
-    margin-left: 800px;
-    width:  2220px;
+    margin-right: 1000px;
+    margin-left: 300px;
+    width: 2220px;
     height: 1000px;
     text-align: center;
     justify-content: center;
     padding-bottom: 200px;
-    
+
+
 
 }
 
@@ -90,23 +91,121 @@ nav {
     font-weight: 900;
     line-height: 88px;
     letter-spacing: 7.04px;
-    
+
 }
 
 .btn {
     margin-bottom: 142px;
+    background-color: rgb(105, 105, 44);
+    border-radius: 10px;
+    border: 0px;
+    padding: 10px;
+    color: rgb(208, 208, 184);
 }
 
 .party-description {
-    color: rgba(255, 255, 255, 0.80);
+    color: rgba(228, 7, 7, 0.8);
     font-family: Inter;
-    font-size: 18px;
+    font-size: 30px;
     font-weight: 400;
     line-height: 30px;
 }
+
 .pic {
-display: flex; 
-align-items: center;
-padding-left: 1710px;
-padding-top: 200px;
-} 
+    display: flex;
+    align-items: center;
+    padding-left: 1710px;
+    padding-top: 200px;
+}
+
+.new-year {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    background-color: rgb(213, 200, 200);
+    margin-top: 100px;
+    margin-left: 385px;
+    margin-right: 386px;
+    margin-bottom: 214px;
+}
+
+.btn-2 {
+    border-radius: 8px;
+    background: #F00;
+    border: 0;
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 130px;
+
+}
+
+.intro {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 190px;
+}
+
+.awesome {
+    color: #070211;
+
+    font-family: Merriweather;
+    font-size: 48px;
+
+    font-weight: 900;
+    padding-left: 190px;
+    text-transform: capitalize;
+}
+
+.description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    padding-left: 190px;
+    
+}
+.full{
+    text-align:justify;
+    margin-left: 200px;
+    justify-content: center;
+}
+.bag{
+padding-left: 180px;
+padding-bottom: 20px;
+/* margin-left: 100px; */
+border-radius: 8px;
+}
+.bag2{
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.bag3{
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.bag1{
+    padding-left: 180px;
+}
+.bag4{
+    padding-left: 20px;
+}
+.bag5{
+    padding-left: 20px;
+}
