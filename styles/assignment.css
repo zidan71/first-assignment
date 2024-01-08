@@ -5,9 +5,6 @@ nav {
     background-position: center;
     border-radius: 25px;
 
-
-
-
 }
 
 
@@ -104,7 +101,7 @@ nav {
 }
 
 .party-description {
-    color: rgba(228, 7, 7, 0.8);
+    color: yellow;
     font-family: Inter;
     font-size: 30px;
     font-weight: 400;
@@ -148,9 +145,154 @@ nav {
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 130px;
+    margin-bottom: 100px;
 
 }
+
+.offer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+    margin-right: 220px;
+    margin-left: 200px;
+    margin-top: 2px
+
+}
+
+.left-section,
+.right-section {
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+.best {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+#soon {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+#offer{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 25px;
+font-weight: 400;
+}
+#year{
+    color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+}
+#year-1{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 25px;
+font-weight: 400;
+line-height: 32px; 
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+.circle {
+    width: 600px;
+    height: 600px;
+    border-radius: 600px;
+    border: 15px solid #F00;
+  }
+  .circle img{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+    padding-top: 60px;
+    
+    
+  }
+  .sale{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #FFF;
+    margin-right: 300px;
+    margin-left: 250px;
+  }
+  #unique{
+    color: #070211;
+font-family: Inter;
+font-size: 50px;
+font-weight: 500;
+  }
+  .text{
+    color: #070211;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+  }
+  .holiday{
+    color: #F00;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+  }
+  .ready{
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 35px;
+font-weight: 500;
+line-height: 32px; 
+  }
+  .body{
+    margin: 0;
+  padding: 0;
+  }
+  .image-container{
+    position: relative;
+  }
+  .group44, .height{
+display: inline;
+text-align:center;
+align-items: center;
+justify-content: end;
+  }
+
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
 
 .intro {
     color: #F00;
@@ -273,7 +415,7 @@ nav {
     border-radius: 50px;
     border: 1px solid grey;
     outline: none;
-   
+
 
 }
 
@@ -289,6 +431,7 @@ footer {
     font-size: 24px;
     font-weight: 500;
     line-height: 40px;
+    padding-top: 10px;
 }
 
 .number {
